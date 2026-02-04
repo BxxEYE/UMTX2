@@ -41,6 +41,16 @@ const payload_map = [
         toPort: 9021
     },
 	{
+        displayTitle: "Kstuff 1.6.7",
+        description: "Kstuff 3.00-10.01",
+        fileName: "kstuff.elf",
+        author: "sleirsgoevy, zecoxao, flatz, idlesauce, buzzer-re",
+        projectSource: "https://https://github.com/EchoStretch/kstuff",
+        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.6.7/kstuff.elf",
+        version: "1.3",
+        toPort: 9020
+    },
+	{
         displayTitle: "ShadowMount 1.3",
         description: "ShadowMount 1.3",
         fileName: "shadowmount.elf",
@@ -49,8 +59,30 @@ const payload_map = [
         binarySource: "https://github.com/adel-ailane/ShadowMount/releases/download/v1.3-beta-NVME/shadowmount.elf",
         version: "1.3",
         toPort: 9020
+    },
+	{
+        displayTitle: "ps5-backpork 0.1",
+        description: "ps5-backpork",
+        fileName: "ps5-backpork.elf",
+        author: "BestPig",
+        projectSource: "https://github.com/BestPig/BackPork",
+        binarySource: "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
+        version: "0.1",
+        toPort: 9020
+    },
+    {
+        // https://github.com/Storm21CH/PS5_Browser_appCache_remove
+        displayTitle: "Browser appcache remover",
+        description: "Deletes for only the current user in webkit-only mode",
+        fileName: "",
+        author: "Storm21CH, idlesauce",
+        projectSource: "",
+        binarySource: "",
+        version: "1.0",
+        customAction: CUSTOM_ACTION_APPCACHE_REMOVE
     }
 ];
+
 
 
 
