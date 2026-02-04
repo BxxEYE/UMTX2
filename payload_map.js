@@ -22,7 +22,7 @@ const CUSTOM_ACTION_APPCACHE_REMOVE = "appcache-remove";
 const payload_map = [
     // { // auto-loaded
     //     displayTitle: "PS5 Payload ELF Loader",
-    //     description: "Uses port 9020. Persistent network elf loader",
+    //     description: "Uses port 9021. Persistent network elf loader",
     //     fileName: "elfldr-ps5.elf",
     //     author: "john-tornblom",
     //     projectSource: "https://github.com/ps5-payload-dev/elfldr",
@@ -38,9 +38,10 @@ const payload_map = [
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
         version: "2.5B",
-        toPort: 9020
+        toPort: 9021
     }
 ];
+
 
 
 
