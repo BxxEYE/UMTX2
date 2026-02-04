@@ -22,24 +22,25 @@ const CUSTOM_ACTION_APPCACHE_REMOVE = "appcache-remove";
 const payload_map = [
     // { // auto-loaded
     //     displayTitle: "PS5 Payload ELF Loader",
-    //     description: "Uses port 9021. Persistent network elf loader",
+    //     description: "Uses port 9020. Persistent network elf loader",
     //     fileName: "elfldr-ps5.elf",
     //     author: "john-tornblom",
     //     projectSource: "https://github.com/ps5-payload-dev/elfldr",
-    //     binarySource: "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.19/Payload.zip",
+    //     binarySource: "https://github.com/ps5-payload-dev/elfldr/releases/latest/download/elfldr-ps5.elf",
     //     version: "0.21.2",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
 	    {
         displayTitle: "etaHEN-2.5B",
         description: "AIO HEN",
-        fileName: "etaHEN-2.4B.bin",
+        fileName: "etaHEN-2.5B.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.4B",
-        toPort: 9021
+        binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
+        version: "2.5B",
+        toPort: 9020
     }
 ];
+
 
 
