@@ -47,7 +47,7 @@ const payload_map = [
         author: "sleirsgoevy, zecoxao, flatz, idlesauce, buzzer-re",
         projectSource: "https://https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.6.7/kstuff.elf",
-        version: "1.3",
+        version: "1.6.7",
         toPort: 9020
     },
 	{
@@ -82,6 +82,7 @@ const payload_map = [
         customAction: CUSTOM_ACTION_APPCACHE_REMOVE
     }
 ];
+
 
 
 
