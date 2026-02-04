@@ -45,12 +45,13 @@ const payload_map = [
         description: "ShadowMount 1.3",
         fileName: "shadowmount.elf",
         author: "adel-ailane",
-        projectSource: "https://github.com/adel-ailane/ShadowMount/releases",
+        projectSource: "https://github.com/adel-ailane/ShadowMount",
         binarySource: "https://github.com/adel-ailane/ShadowMount/releases/download/v1.3-beta-NVME/shadowmount.elf",
         version: "1.3",
         toPort: 9021
     }
 ];
+
 
 
 
