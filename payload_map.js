@@ -39,8 +39,19 @@ const payload_map = [
         binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
         version: "2.5B",
         toPort: 9021
+    },
+	{
+        displayTitle: "ShadowMount 1.3",
+        description: "ShadowMount 1.3",
+        fileName: "shadowmount.elf",
+        author: "adel-ailane",
+        projectSource: "https://github.com/adel-ailane/ShadowMount/releases",
+        binarySource: "https://github.com/adel-ailane/ShadowMount/releases/download/v1.3-beta-NVME/shadowmount.elf",
+        version: "1.3",
+        toPort: 9021
     }
 ];
+
 
 
 
